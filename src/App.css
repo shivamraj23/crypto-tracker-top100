@@ -1,0 +1,49 @@
+body{
+  background-color: #18122B;
+}
+.App{
+  display: flex;
+}
+.allcoins{
+  display: flex;
+  max-width: 75%;
+  flex-wrap: wrap;
+  
+}
+
+.searchcoin{
+  width: 20rem;
+  border-left: 4px solid #635985;
+  border-top: 4px solid #635985;
+  margin: 2rem 0;
+  border-radius: 1rem;
+  
+  display: flex;
+  flex-direction: column;
+
+  
+}
+
+.searchbox{
+  margin:2rem 2rem;
+}
+
+.searchbox input{
+  height: 3rem;
+  width:15rem;
+  border: none;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  
+}
+
+input:focus{
+  outline:none;
+}
+
+.displaycoin{
+  
+  display: flex;
+  flex-direction: column;
+  
+}

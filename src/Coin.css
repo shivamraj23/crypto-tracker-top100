@@ -1,0 +1,40 @@
+.coin-container{
+    background-color: #393053;
+    color:aliceblue;
+    width: 15rem;
+    height: 18rem;
+    margin:2rem;
+    border-radius: 1rem;
+    border-right: 6px solid #635985;
+    border-bottom: 6px solid #635985;
+    
+}
+
+.coin-small-div{
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+}
+.coin-title-div{
+    border-bottom: 2px solid #635985;
+    height:2rem ;
+    border-radius: 2px;
+}
+
+.coin-logo{
+    position: relative;
+    top:1rem;
+
+    width: 2rem;
+    height: 2rem;
+}
+.logo-div{
+    position: relative;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.coin-details{
+    padding:0 1rem;
+    border: none;
+}
